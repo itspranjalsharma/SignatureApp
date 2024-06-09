@@ -7,9 +7,9 @@ const ctx = canvas.getContext("2d");
 let drawing = false;
 let prevX = 0;
 let prevY = 0;
-let color = "#000"; // Current line color
-let thickness = 2; // Current line thickness
-let undoStack = []; // Stack for storing previous canvas states for undo
+let color = "#000"; // 😀Current line color
+let thickness = 2; // 😀😀Current line thickness
+let undoStack = []; //  😀Stack for storing previous canvas states for undo
 
 // Event listeners for drawing
 canvas.addEventListener("mousedown", (e) => {
