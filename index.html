@@ -9,20 +9,20 @@
 </head>
 
 <body>
-   <div id="main">
-    <h1>Signature Pad</h1>
-    <div class="controls">
-        <label for="color-picker">Color:</label>
-        <input type="color" id="color-picker" value="#000"> <label for="thickness-slider">Thickness:</label>
-        <input type="range" min="1" max="10" value="2" id="thickness-slider">
+    <div id="main">
+        <h1>Signature Pad</h1>
+        <div class="controls">
+            <label for="color-picker">Color:</label>
+            <input type="color" id="color-picker" value="#000"> <label for="thickness-slider">Thickness:</label>
+            <input type="range" min="1" max="10" value="2" id="thickness-slider">
+        </div>
+        <canvas id="signature-pad" width="350" height="200"></canvas>
+        <div class="buttons">
+            <button id="clear-button" class="button-5 ">Clear</button>
+            <button id="save-button" class="button-5 ">Save</button>
+            <button id="undo-button">Undo (Ctrl+Z)</button>
+        </div>
     </div>
-    <canvas id="signature-pad" width="350" height="200"></canvas>
-    <div class="buttons">
-        <button id="clear-button">Clear</button>
-        <button id="save-button">Save</button>
-        <button id="undo-button">Undo (Ctrl+Z)</button>
-    </div>
-   </div>
     <script src="script.js"></script>
 </body>
 
